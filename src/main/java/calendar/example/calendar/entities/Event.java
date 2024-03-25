@@ -25,7 +25,7 @@ public class Event {
     private LocalDate dateEnd;
 
     @ManyToOne
-    @JoinColumn(name = "calendario_id")
+    @JoinColumn(name = "calendar_id")
     @JsonIgnore
     private Calendar calendar;
 
